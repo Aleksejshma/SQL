@@ -1,10 +1,13 @@
+package test;
+
 import com.codeborne.selenide.Configuration;
+import data.DataHelper;
+import data.SQLHelper;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.chrome.ChromeOptions;
-
+import page.LoginPage;
 import java.util.HashMap;
 import java.util.Map;
-
 import static com.codeborne.selenide.Selenide.open;
 
 public class BankLoginTest {

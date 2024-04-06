@@ -1,5 +1,8 @@
+package page;
+
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
+import page.DashboardPage;
 
 import static com.codeborne.selenide.Selenide.$;
 

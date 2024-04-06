@@ -1,3 +1,5 @@
+package data;
+
 import com.github.javafaker.Faker;
 import lombok.Value;
 
@@ -18,7 +20,7 @@ public class DataHelper {
         return FAKER.internet().password();
     }
 
-    static AuthInfo generateRandomUser() {
+    public static AuthInfo generateRandomUser() {
         return new AuthInfo(generateRandomLogin(), generateRandomPassword());
     }
 
